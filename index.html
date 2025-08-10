@@ -119,16 +119,24 @@ layout: default
     }
     .title {
     font-family: sans-serif;
+    margin-bottom: 1.5em;
     }
     .title-main {
         font-size: 2.5em;
         font-weight: bold;
+        color: #181818;
         margin-bottom: 0.2em;
     }
     .title-sub {
         font-size: 1.2em;
         font-weight: normal;
-        color: #555;
+        color: #525252;
+    }
+    .title-section {
+        font-size: 2.0em;
+        font-weight: bold;
+        color: #181818;
+        margin-bottom: 1em;
     }
 </style>
 
@@ -143,9 +151,9 @@ layout: default
     We present ReverbFX, a new room impulse response (RIR) dataset designed for singing voice dereverberation research. Unlike existing datasets based on real recorded RIRs, ReverbFX features a diverse collection of RIRs captured from various reverb audio effect plugins commonly used in music production. We conduct comprehensive experiments using the proposed dataset to benchmark the challenge of dereverberation of singing voice recordings affected by artificial reverbs. We train two state-of-the-art generative models using ReverbFX and demonstrate that models trained with plugin-derived RIRs outperform those trained on realistic RIRs in artificial reverb scenarios.
 </div>
 
-<div class="title" id="citation">
+<div class="title-section" id="citation">
     <div class="title-main">Citation</div>
-</h2>
+</div>
 
 <div>
     If you use the dataset or any derivative of it, please cite our 
