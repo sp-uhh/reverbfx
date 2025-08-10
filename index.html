@@ -118,7 +118,6 @@ layout: default
         background-color: #d3d3d3;
     }
     .title {
-    text-align: center;
     font-family: sans-serif;
     }
     .title-main {
@@ -140,6 +139,37 @@ layout: default
   </div>
 </div>
 
-<p>
-    Website is coming soon.
-</p>
+<div>
+    We present ReverbFX, a new room impulse response (RIR) dataset designed for singing voice dereverberation research. Unlike existing datasets based on real recorded RIRs, ReverbFX features a diverse collection of RIRs captured from various reverb audio effect plugins commonly used in music production. We conduct comprehensive experiments using the proposed dataset to benchmark the challenge of dereverberation of singing voice recordings affected by artificial reverbs. We train two state-of-the-art generative models using ReverbFX and demonstrate that models trained with plugin-derived RIRs outperform those trained on realistic RIRs in artificial reverb scenarios.
+</div>
+
+<div class="title" id="citation">
+    <div class="title-main">Citation</div>
+</h2>
+
+<div>
+    If you use the dataset or any derivative of it, please cite our 
+    <a href="https://arxiv.org/abs/2505.20533" target="_blank">paper</a>: 
+</div>
+
+<div class="container">
+    <div class="inner-container" dir="auto" data-snippet-clipboard-copy-content="{% raw %}@inproceedings{richter2025reverbfx,
+    title={{ReverbFX}: A Dataset of Room Impulse Responses Derived from Reverb Effect Plugins for Singing Voice Dereverberation},
+    author={Richter, Julius and Svajda, Till and Gerkmann, Timo},
+    booktitle={ITG Conference on Speech Communication},
+    year={2025}
+}{% endraw %}">
+<pre><code>{% raw %}@inproceedings{richter2025reverbfx,
+    title={{ReverbFX}: A Dataset of Room Impulse Responses Derived from Reverb Effect Plugins for Singing Voice Dereverberation},
+    author={Richter, Julius and Svajda, Till and Gerkmann, Timo},
+    booktitle={ITG Conference on Speech Communication},
+    year={2025}
+}{% endraw %}</code></pre>
+    </div>
+    <button id="copyButton" class="highlight">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" width="16" class="octicon octicon-clippy">
+            <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path>
+            <path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+        </svg>
+    </button>
+</div>

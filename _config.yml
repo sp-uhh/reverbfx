@@ -22,7 +22,7 @@ title: ReverbFX
 logo: /assets/img/uhh_logo.svg
 email: # your email address
 description: >- # this means to ignore newlines until "baseurl:"
-  A Dataset of Room Impulse Responses Derived from Reverb Effect Plugins for Singing Voice Dereverberation
+  ReverbFX: A Dataset of Room Impulse Responses Derived from Reverb Effect Plugins for Singing Voice Dereverberation
 domain: sp-uhh.github.io
 baseurl: "/reverbfx/" # the subpath of your site, e.g. /blog
 url: "https://sp-uhh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
